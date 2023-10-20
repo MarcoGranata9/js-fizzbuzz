@@ -1,20 +1,29 @@
 const rowElem = document.querySelector(".row");
 console.log(rowElem);
 
- for (let i = 1; i <= 100 ; i++) {
+let squareString = "";
 
-    let FizzBuzz;
+for (let i = 1; i <= 100 ; i++) {
+
+    let FizzBuzzClass;
+    let FizzBuzzText;
     if(i % 3 === 0 && i % 5 === 0) {
-        FizzBuzz = "FizzBuzz";
-        console.log(i, FizzBuzz);
+        FizzBuzzClass = "fizzbuzz";
+        FizzBuzzText = "FizzBuzz"
     } else if (i % 3 === 0) {
-        FizzBuzz = "Fizz"
-        console.log(i, FizzBuzz);
+        FizzBuzzClass = "fizz";
+        FizzBuzzText = "Fizz"
     } else if (i % 5 === 0) {
-        FizzBuzz = "Buzz"
-        console.log(i, FizzBuzz)
+        FizzBuzzClass = "buzz";
+        FizzBuzzText = "Buzz"
     } else {
-        i
-        console.log(i)
-    }              
+        FizzBuzzClass = "number"
+        FizzBuzzText = i
+    }
+    // console.log(i, FizzBuzz);
+
+    squareString += `<div class="square ${FizzBuzzClass}">${FizzBuzzText}</div>`
+    console.log(squareString);
 }
+
+rowElem.innerHTML = squareString

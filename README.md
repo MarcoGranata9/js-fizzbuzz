@@ -12,5 +12,8 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 2. Creare nel ciclo una condizione che riconosca i multipli di 3 e di 5 e che stampi FizzBuzz al posto dei numeri
 3. Creare nel ciclo una condizione che riconosca i multipli di 3 e che stampi Fizz al posto di 3
 4. Creare nel ciclo una condizione che riconosca i multipli di 5 e che stampi Buzz al posto di 5
+5. Creare una stringa che aggiunga tutti gli elementi
 
+**Output**
 
+1. Stampare in pagina le stringhe degli elementi
