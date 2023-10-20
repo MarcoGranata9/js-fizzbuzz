@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(88, 88, 172);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    font-size: 60px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;    
+}
+
+.number {
+    background-color: lightblue;
+}
+
+.fizz {
+    background-color: lightgreen;
+}
+
+.buzz {
+    background-color: indianred;
+}
+
+.fizzbuzz {
+    background-color: yellow;
+}
+
