@@ -29,7 +29,7 @@ h1 {
 }
 
 .square {
-    width: 100px;
+    width: calc(100% / 10 - 10px);
     height: 100px;
     text-align: center;
     line-height: 100px;    
